@@ -5,7 +5,8 @@ body {
   box-sizing: border-box;
 }
 
-nav {
+nav,
+#part1-footer {
   background-color: #2c3e50;
 }
 nav p {
@@ -26,11 +27,23 @@ h1,
 .section1 p,
 .section3 h2,
 .section3 hr,
-.section3 p {
+.section3 p,
+.bouton,
+#part1-footer h3,
+#part1-footer p,
+#part1-footer i,
+#part2-footer p {
   color: #ffffff;
 }
+.section1 {
+  padding-top: 100px;
+}
+.para {
+  padding-bottom: 50px;
+}
 .section1,
-.section3 {
+.section3,
+.bouton {
   background-color: #1abc9c;
 }
 hr {
@@ -46,4 +59,21 @@ hr {
 .section2 img {
   width: 400px;
   border-radius: 10px;
+}
+.bouton {
+  width: 100px;
+}
+.sectioncontact .form-control {
+  background: transparent;
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid #ced4da;
+}
+/* --- */
+#part1-footer a {
+  color: #1abc9c;
+}
+/* ----- */
+#part2-footer {
+  background-color: #1a252f;
 }

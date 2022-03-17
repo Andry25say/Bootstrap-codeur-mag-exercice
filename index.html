@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="container-fluid position-fixed">
       <nav class="row align-items-center">
         <div class="col">
           <p class="fw-normal text-uppercase">Start bootstrap</p>
@@ -38,126 +38,196 @@
       </nav>
     </header>
     <!------------------------->
-    <section class="container-fluid text-center mb-5 section1">
-      <div class="row">
-        <img
-          src="assets/img/avataaars.svg"
-          alt=""
-          class="img-fluid mx-auto imagehead"
-        />
-      </div>
-      <div class="row">
-        <h1>Start bootstrap</h1>
-      </div>
-      <div class="row">
-        <div class="col"><hr class="ms-auto" /></div>
-        <div class="col-1">
-          <i class="fa-solid fa-star text-light fs-2"></i>
-        </div>
-        <div class="col"><hr /></div>
-      </div>
-      <div class="row">
-        <p>Graphic Artist - Web Designer - Illustrator</p>
-      </div>
-    </section>
-    <!-- -------- -->
-    <section class="container-fluid section2">
-      <div class="row">
-        <h2 class="mb-3">PORTFOLIO</h2>
-        <div class="col"><hr class="ms-auto" /></div>
-        <div class="col-1"><i class="fa-solid fa-star fs-2 star2"></i></div>
-        <div class="col mb-3"><hr /></div>
-      </div>
-      <div class="row">
-        <div class="col g-4">
-          <img src="assets/img/portfolio/cabin.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col g-4">
-          <img src="assets/img/portfolio/cake.png" alt="" class="img-fluid" />
-        </div>
-
-        <div class="col g-4">
-          <img src="assets/img/portfolio/circus.png" alt="" class="img-fluid" />
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col g-4">
-          <img src="assets/img/portfolio/game.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col g-4">
-          <img src="assets/img/portfolio/safe.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col g-4">
+    <main>
+      <section class="container-fluid text-center mb-5 section1">
+        <div class="row">
           <img
-            src="assets/img/portfolio/submarine.png"
+            src="assets/img/avataaars.svg"
             alt=""
-            class="img-fluid"
+            class="img-fluid mx-auto mb-4 imagehead"
           />
         </div>
-      </div>
-    </section>
-    <!-- ---- -->
-    <section class="container-fluid text-center p-5 section3">
-      <div class="row">
-        <h2>ABOUT</h2>
-        <div class="col"><hr class="ms-auto" /></div>
-        <div class="col-1">
-          <i class="fa-solid fa-star fs-2 text-light"></i>
+        <div class="row">
+          <h1 class="mb-2">Start bootstrap</h1>
         </div>
-        <div class="col"><hr /></div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p>
-            Freelancer is a free bootstrap theme created by Start Bootstrap. The
-            download includes the complete source files including HTML, CSS, and
-            JavaScript as well as optional SASS stylesheets for easy
-            customization.
-          </p>
+        <div class="row mb-3">
+          <div class="col"><hr class="ms-auto" /></div>
+          <div class="col-1">
+            <i class="fa-solid fa-star text-light fs-2"></i>
+          </div>
+          <div class="col"><hr /></div>
         </div>
-        <div class="col">
-          <p>
-            You can create your own custom avatar for the masthead, change the
-            icon in the dividers, and add your email address to the contact form
-            to make it fully functional!
-          </p>
+        <div class="row para">
+          <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
-      </div>
-      <div class="row">
-        <a
-          ><button type="button" class="btn btn-outline-light">
-            <i class="fa-solid fa-download"></i> Free download
-          </button></a
-        >
-      </div>
-    </section>
+      </section>
+      <!-- -------- -->
+      <section class="container-fluid text-center section2">
+        <div class="row">
+          <h2 class="mb-3">PORTFOLIO</h2>
+          <div class="col"><hr class="ms-auto" /></div>
+          <div class="col-1"><i class="fa-solid fa-star fs-2 star2"></i></div>
+          <div class="col mb-3"><hr /></div>
+        </div>
+        <div class="row">
+          <div class="col g-4">
+            <img
+              src="assets/img/portfolio/cabin.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col g-4">
+            <img src="assets/img/portfolio/cake.png" alt="" class="img-fluid" />
+          </div>
+
+          <div class="col g-4">
+            <img
+              src="assets/img/portfolio/circus.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col g-4">
+            <img src="assets/img/portfolio/game.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col g-4">
+            <img src="assets/img/portfolio/safe.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col g-4">
+            <img
+              src="assets/img/portfolio/submarine.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- ---- -->
+      <section class="container-fluid text-center p-5 mb-5 section3">
+        <div class="row mb-3">
+          <h2>ABOUT</h2>
+          <div class="col"><hr class="ms-auto" /></div>
+          <div class="col-1">
+            <i class="fa-solid fa-star fs-2 text-light"></i>
+          </div>
+          <div class="col"><hr /></div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-4 offset-2">
+            <p>
+              Freelancer is a free bootstrap theme <br />
+              created by Start Bootstrap.The download <br />
+              includesthe complete source <br />
+              files including HTML,CSS, and JavaScript<br />
+              as well as optional SASS <br />
+              stylesheets for easycustomization.
+            </p>
+          </div>
+          <div class="col-4">
+            <p>
+              You can create your own custom<br />
+              avatar for the masthead, change the<br />
+              icon in the dividers, and add your <br />
+              email address to the contact<br />
+              form to make it fully functional!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <a
+            ><button type="button" class="btn btn-outline-light">
+              <i class="fa-solid fa-download"></i> Free download
+            </button></a
+          >
+        </div>
+      </section>
+      <!-- ------------ -->
+      <section class="container-fluid mb-5 sectioncontact">
+        <div class="row text-center mb-5">
+          <h2 class="mb-3">CONTACT ME</h2>
+          <div class="col"><hr class="ms-auto" /></div>
+          <div class="col-1">
+            <i class="fa-solid fa-star fs-2 star2"></i>
+          </div>
+          <div class="col"><hr /></div>
+        </div>
+        <div class="row container">
+          <div class="contact-form col-8 offset-2 form">
+            <div class="input-fields">
+              <label for="mes" class="fs-3">Full name</label>
+              <input type="text" id="mes" class="form-control mb-4" />
+              <label for="mail" class="fs-3">Email adress</label>
+              <input type="email" class="form-control mb-4" id="mail" />
+              <label for="mes" class="fs-3">Phone number</label>
+              <input type="tel" class="form-control mb-4" id="phone" />
+            </div>
+            <div class="mes">
+              <label for="mes" class="fs-3">Message</label>
+              <textarea class="form-control" id="mes" rows="4"></textarea>
+              <div class="row">
+                <button type="button" class="btn m-3 bouton">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- ------------ -->
-    <section class="container-fluid">
-      <div class="row text-center">
-        <h2>CONTACT ME</h2>
-        <div class="col"><hr class="ms-auto" /></div>
-        <div class="col-1">
-          <i class="fa-solid fa-star fs-2 star2"></i>
-        </div>
-        <div class="col"><hr /></div>
-      </div>
-      <div class="row container">
-        <div class="contact-form">
-          <div class="input-fields">
-            <label for="mes">Full name</label>
-            <input type="text" class="form-control" />
-            <label for="mail">Email adress</label>
-            <input type="email" class="form-control" id="mail" />
-            <label for="mes">Phone number</label>
-            <input type="tel" class="form-control" id="phone" />
+    <footer>
+      <section id="part1-footer" class="container-fluid text-center p-5">
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <h3 class="mb-4">LOCATION</h3>
+              <div class="col">
+                <p>
+                  2215 John Daniel Drive<br />
+                  Clark, MO 65243
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="mes">
-            <label for="mes">Message</label>
-            <textarea class="form-control" id="mes" rows="2"></textarea>
-            <button type="button" class="btn btn-success">Send</button>
+          <div class="col">
+            <div class="row">
+              <h3 class="mb-4">AROUND THE WEB</h3>
+              <div class="row">
+                <div class="col">
+                  <i class="fa-brands fa-facebook fs-1"></i>
+                </div>
+                <div class="col"><i class="fa-brands fa-twitter fs-1"></i></div>
+                <div class="col">
+                  <i class="fa-brands fa-linkedin fs-1"></i>
+                </div>
+                <div class="col">
+                  <i class="fa-brands fa-linkedin fs-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <h3 class="mb-4">ABOUT FREELANCER</h3>
+              <div class="row">
+                <p>
+                  Freelance is a free to use, MIT license <br />
+                  Bootstrap theme created by
+                  <a href="https://getbootstrap.com"
+                    >Start <br />
+                    Bootstrap</a
+                  >.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="part2-footer" class="row text-center p-2 align-items-center">
+        <p>Copyright&copy; Your Website 2021</p>
+      </section>
+    </footer>
   </body>
 </html>
